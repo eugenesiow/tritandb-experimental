@@ -26,6 +26,12 @@ dependencies {
     compile 'org.mapdb:mapdb:3.0.4'
     compile group: 'com.indeed', name: 'lsmtree-core', version: '1.0.7'
     compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.16'
+
+    testCompile 'com.nhaarman:mockito-kotlin:1.4.0'
+    testCompile "org.jetbrains.kotlin:kotlin-test"
+    testCompile 'org.jetbrains.spek:spek-api:1.1.2'
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.0.0-M4'
+    testRuntime 'org.jetbrains.spek:spek-junit-platform-engine:1.1.2'
 }
 
 kotlin {
